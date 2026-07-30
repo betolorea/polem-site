@@ -1,0 +1,14 @@
+{
+  "name": "Polem",
+  "short_name": "Polem",
+  "description": "Sistema documental ISO/IEC 27001:2022 en español para empresas latinoamericanas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ee",
+  "theme_color": "#0b1420",
+  "lang": "es-MX",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
