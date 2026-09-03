@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="es-MX"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Términos y licencia de uso — Polem</title>
+<meta name="description" content="Términos de venta y licencia de uso de las plantillas de Polem: qué incluye la licencia, qué puedes y qué no puedes hacer con el material, y los límites del producto.">
+<link rel="canonical" href="https://polem.tech/terminos.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Términos y licencia de uso — Polem">
+<meta property="og:description" content="Términos de venta y licencia de uso de las plantillas de Polem: qué incluye la licencia, qué puedes y qué no puedes hacer con el material, y los límites del producto.">
+<meta property="og:url" content="https://polem.tech/terminos.html">
+<meta property="og:image" content="https://polem.tech/og.png">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ink:#0b1420; --primary:#0e2a47; --tertiary:#7e5c1c; --tertiary-light:#c9a961;
+  --neutral:#f5f3ee; --surface:#ffffff; --surface-sunken:#ebe8e1;
+  --on-surface:#0b1420; --on-surface-muted:#5a6672;
+  --on-ink:#f5f3ee; --on-ink-muted:#8fa3b8;
+  --rule:#0b1420; --rule-soft:#d6d1c6;
+  --font-display:"Bodoni Moda","Didot",Georgia,serif;
+  --font-text:"Newsreader",Georgia,"Times New Roman",serif;
+  --font-mono:"Martian Mono",ui-monospace,"SF Mono",monospace;
+}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:600;font-display:swap;src:url('./assets/fonts/bodoni-moda-600.woff2') format('woff2')}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('./assets/fonts/newsreader-400.woff2') format('woff2')}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('./assets/fonts/newsreader-600.woff2') format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:400;font-display:swap;src:url('./assets/fonts/martian-mono-400.woff2') format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:500;font-display:swap;src:url('./assets/fonts/martian-mono-500.woff2') format('woff2')}
+
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--neutral);color:var(--on-surface);
+  font-family:var(--font-text);font-size:18px;line-height:1.65;
+  -webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{max-width:1240px;margin-inline:auto;padding-inline:24px;position:relative;z-index:1}
+
+/* ── cabecera ───────────────────────────────────────────── */
+.docbar{border-bottom:1px solid var(--rule);background:var(--neutral);
+  position:sticky;top:0;z-index:20}
+.docbar-in{display:flex;align-items:center;justify-content:space-between;gap:24px;
+  min-height:64px}
+.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.brand-mark{width:15px;height:17px;display:block}
+.brand-name{font-family:var(--font-display);font-size:22px;font-weight:600;letter-spacing:-.02em}
+.back{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;text-decoration:none;color:var(--on-surface-muted);
+  border-bottom:1px solid var(--rule-soft);padding-bottom:2px}
+.back:hover,.back:focus-visible{color:var(--ink);border-color:var(--ink)}
+
+/* ── membrete ───────────────────────────────────────────── */
+.masthead{background:var(--ink);color:var(--on-ink);padding:56px 0 60px;margin-bottom:0}
+.masthead .cn{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary-light);background:var(--ink);display:block}
+.masthead h1{font-family:var(--font-display);font-size:38px;font-weight:600;line-height:1;
+  letter-spacing:-.03em;margin:14px 0 0;color:var(--on-ink);background:var(--ink);max-width:20ch}
+@media(min-width:860px){.masthead h1{font-size:60px}}
+.masthead .sub{font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;
+  color:var(--on-ink-muted);background:var(--ink);margin:18px 0 0}
+
+/* ── cuerpo ─────────────────────────────────────────────── */
+main{padding:0 0 96px}
+.clause{border-top:4px solid var(--rule);padding-top:28px;margin-top:56px}
+.clause:first-of-type{margin-top:56px}
+.clause-grid{display:grid;gap:20px}
+@media(min-width:980px){.clause-grid{grid-template-columns:minmax(0,1fr) 260px;gap:56px;align-items:start}}
+.cnum{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary);display:block;margin-bottom:10px}
+h2{font-family:var(--font-display);font-size:28px;font-weight:600;line-height:1.1;
+  letter-spacing:-.02em;margin:0 0 20px;max-width:24ch}
+@media(min-width:860px){h2{font-size:34px}}
+h3{font-family:var(--font-text);font-size:19px;font-weight:600;margin:32px 0 8px}
+p{margin:0 0 16px;max-width:68ch}
+ul{margin:0 0 16px;padding-left:0;list-style:none;max-width:68ch}
+li{position:relative;padding-left:22px;margin-bottom:10px}
+li::before{content:"";position:absolute;left:0;top:11px;width:7px;height:7px;
+  background:var(--tertiary)}
+a{color:var(--primary);text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1px}
+a:hover,a:focus-visible{color:var(--ink)}
+b,strong{font-weight:600}
+.campo{font-family:var(--font-mono);font-size:.86em;font-weight:500;color:var(--tertiary);
+  border-bottom:2px dotted var(--tertiary);padding-bottom:1px;white-space:nowrap}
+.dl{margin:0 0 20px;max-width:68ch}
+.dl div{display:grid;gap:2px;padding:12px 0;border-bottom:1px solid var(--rule-soft)}
+@media(min-width:640px){.dl div{grid-template-columns:200px minmax(0,1fr);gap:20px;align-items:baseline}}
+.dl dt{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-surface-muted);margin:0}
+.dl dd{margin:0}
+.margin-notes{display:grid;gap:20px;align-content:start}
+@media(max-width:979px){.margin-notes{border-top:1px solid var(--rule-soft);padding-top:20px}}
+.note{font-family:var(--font-mono);font-size:12.5px;line-height:1.6;color:var(--on-surface-muted);
+  border-left:2px solid var(--rule-soft);padding-left:14px;margin:0}
+.note b{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--tertiary);margin-bottom:6px;font-weight:500}
+.callout{background:var(--surface-sunken);border-left:4px solid var(--tertiary);
+  padding:20px 22px;margin:24px 0;max-width:68ch}
+.callout p:last-child{margin-bottom:0}
+.callout .lbl{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary);display:block;margin-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:0 0 20px;font-size:16px}
+th,td{text-align:left;padding:12px 14px 12px 0;border-bottom:1px solid var(--rule-soft);
+  vertical-align:top}
+thead th{border-bottom:2px solid var(--rule);font-family:var(--font-mono);font-size:11px;
+  font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--on-surface-muted)}
+.scroll-x{overflow-x:auto}
+
+/* ── colofón ────────────────────────────────────────────── */
+footer{background:var(--ink);color:var(--on-ink);padding:48px 0 32px}
+.fgrid{display:grid;gap:28px}
+@media(min-width:860px){.fgrid{grid-template-columns:minmax(0,1fr) auto}}
+footer .brand{color:var(--on-ink);background:var(--ink)}
+footer p{color:var(--on-ink-muted);background:var(--ink);font-size:15px;margin:14px 0 0;max-width:44ch}
+.flinks{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:center}
+.flinks a{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-ink);background:var(--ink);text-decoration:none;
+  border-bottom:1px solid transparent;padding-bottom:2px}
+.flinks a:hover,.flinks a:focus-visible{border-color:var(--tertiary-light)}
+.fbar{border-top:1px solid #2a3a4d;margin-top:36px;padding-top:20px;
+  display:flex;flex-wrap:wrap;gap:8px 32px;
+  font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-ink-muted);background:var(--ink)}
+:focus-visible{outline:2px solid var(--tertiary);outline-offset:3px}
+@media print{body::before{display:none}.docbar,footer{background:#fff;color:#000}}
+</style></head>
+<body>
+
+<header class="docbar">
+  <div class="wrap docbar-in">
+    <a class="brand" href="/" aria-label="Polem — inicio"><svg class="brand-mark" viewBox="0 0 250 290" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="55" height="10"/><rect x="0" y="280" width="55" height="10"/><rect x="15" y="0" width="20" height="290"/><rect x="70" y="0" width="180" height="10"/><rect x="70" y="280" width="180" height="10"/><rect x="70" y="50" width="20" height="240"/><rect x="90" y="50" width="155" height="10"/><rect x="90" y="125" width="155" height="5"/><rect x="100" y="195" width="145" height="10"/><rect x="235" y="50" width="10" height="155"/><rect x="160" y="50" width="5" height="155"/></svg><span class="brand-name">Polem</span></a>
+    <a class="back" href="/">← Volver a la portada</a>
+  </div>
+</header>
+
+<div class="masthead">
+  <div class="wrap">
+    <span class="cn">§L2 · Términos y licencia</span>
+    <h1>Términos y licencia de uso</h1>
+    <p class="sub">Vigente desde el 21 de agosto de 2026 · Rev. 2026.4</p>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+
+    <section class="clause" id="1">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§1 · Objeto</span>
+          <h2>Qué regula este documento.</h2>
+
+          <p>Estos términos rigen la compra y el uso de los productos digitales que Polem
+          vende a través de <a href="https://polem.tech">polem.tech</a> y de su tienda en
+          Gumroad: plantillas, registros, listas de verificación y material de apoyo para la
+          implementación de normas de seguridad de la información.</p>
+          <p>Al comprar aceptas estos términos. Si no estás de acuerdo con alguno, no
+          compres: la política de reembolsos de §L3 existe precisamente para que puedas
+          revisar el material y echarte atrás.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Comerciante</b>Gumroad actúa como comerciante registrado. El cobro, la factura y el impuesto los gestiona Gumroad; el contenido y el soporte, Polem.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="2">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§2 · Qué compras</span>
+          <h2>Una licencia de uso, no la propiedad del material.</h2>
+
+          <p>La compra te otorga una <b>licencia perpetua, mundial, no exclusiva e
+          intransferible</b> para usar los documentos dentro de <b>una sola organización</b>:
+          la tuya, o aquella para la que trabajas como personal interno.</p>
+          <p>La licencia es perpetua: lo que compraste hoy lo puedes seguir usando siempre,
+          aunque Polem deje de vender el producto o deje de existir.</p>
+          <h3>Sí puedes</h3>
+          <ul>
+            <li>Adaptar, reescribir y renombrar los documentos como quieras.</li>
+            <li>Quitar toda referencia a Polem y presentarlos como documentación propia de
+            tu organización. Es exactamente para lo que están hechos.</li>
+            <li>Compartirlos con tu personal, tu auditor interno, tu consultor y tu
+            organismo certificador.</li>
+            <li>Usarlos para más de una certificación dentro de la misma organización, y en
+            sus filiales bajo el mismo control corporativo.</li>
+          </ul>
+          <h3>No puedes</h3>
+          <ul>
+            <li>Revenderlos, redistribuirlos ni publicarlos, ni gratis ni de pago, como
+            plantillas o como parte de otro producto.</li>
+            <li>Compartir tu enlace de descarga o los archivos con personas ajenas a tu
+            organización.</li>
+            <li>Usarlos para prestar servicios de consultoría a terceros sin la licencia de
+            §L2.3.</li>
+            <li>Incluirlos en un curso, una membresía, un repositorio público o un modelo de
+            inteligencia artificial.</li>
+          </ul>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Sin marca</b>No hay marcas de agua ni menciones obligatorias. El documento que entregas al auditor es tuyo.</p>
+<p class="note"><b>Sin activación</b>No hay licencias que caduquen ni verificación en línea. Los archivos funcionan sin conexión, para siempre.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="3">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§3 · Consultores</span>
+          <h2>Si implementas para clientes, necesitas otra licencia.</h2>
+
+          <p>La licencia estándar cubre una organización. Si eres consultor, despacho o
+          integrador y quieres usar el material con varios clientes, requieres una
+          <b>licencia de consultor</b>, que se contrata por separado escribiendo a
+          <a href="mailto:hola@polem.tech">hola@polem.tech</a>.</p>
+          <p>No es una restricción caprichosa: el precio de la licencia estándar está
+          calculado para una organización que se certifica una vez. Quien lo usa como
+          herramienta de trabajo recurrente obtiene un valor distinto y paga un precio
+          distinto.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Caso frecuente</b>Si eres consultor y compraste la licencia estándar por error, escríbenos: se ajusta la diferencia sin drama.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="4">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§4 · Lo que no prometemos</span>
+          <h2>El límite del producto, dicho de frente.</h2>
+
+          <div class="callout">
+            <span class="lbl">Descargo principal</span>
+            <p><b>Polem vende plantillas de apoyo. No garantizan la certificación.</b> El
+            resultado de una auditoría depende de tu implementación real, de tu evidencia y
+            del criterio de tu organismo certificador, y ninguna de esas tres cosas está
+            bajo nuestro control.</p>
+          </div>
+          <ul>
+            <li>Polem <b>no es</b> tu consultor, tu auditor ni tu organismo certificador, y
+            no puede serlo: certificar exige independencia.</li>
+            <li>El material <b>no es asesoría jurídica</b>. Las referencias legales que
+            contiene son orientativas y debes verificarlas con tu asesor.</li>
+            <li>Los títulos de los controles del Anexo A son una traducción de trabajo al
+            español neutro. La versión oficial es la de tu copia con licencia de la norma,
+            que debes adquirir por separado del organismo correspondiente.</li>
+            <li>Polem <b>no accede</b> a tus sistemas, tu red ni tu información. Vendemos
+            documentos, no servicios técnicos.</li>
+          </ul>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Norma</b>Comprar el kit no te da derecho al texto de ISO/IEC 27001:2022. Esa norma se adquiere aparte y su copyright es de ISO.</p>
+<p class="note"><b>Honestidad</b>Cada entrega incluye una hoja que dice qué cubre y qué no. Preferimos decirlo antes que dejar que lo descubras en la auditoría.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="5">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§5 · Propiedad intelectual</span>
+          <h2>De quién es cada cosa.</h2>
+
+          <p>El contenido, la redacción, la estructura y el diseño de los documentos son
+          propiedad de <span class="campo">[NOMBRE COMPLETO DEL TITULAR]</span>. La licencia de §L2 te permite usarlos y adaptarlos; no te
+          transfiere su titularidad.</p>
+          <p>Los documentos que <b>tú</b> produzcas al adaptarlos —con tu información, tus
+          decisiones y tus datos— son enteramente tuyos. Polem no reclama ningún derecho
+          sobre ellos.</p>
+          <p>Todo el material de Polem se crea desde cero. No deriva de documentación interna
+          de ninguna empresa ni de material de terceros.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Marca</b>«Polem» y su isotipo son marcas de su titular. La licencia de uso del material no incluye derecho a usar la marca.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="6">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§6 · Actualizaciones</span>
+          <h2>Qué incluye y por cuánto tiempo.</h2>
+
+          <p>Los productos que incluyen actualizaciones de versión te dan derecho a recibir
+          las revisiones publicadas durante <b>doce meses</b> desde la compra, sin costo. Se
+          entregan por el mismo canal de la compra original.</p>
+          <p>Pasados los doce meses conservas todo lo descargado y puedes seguir usándolo sin
+          límite; simplemente dejas de recibir revisiones nuevas.</p>
+          <p>Si una norma cambia de edición de forma sustancial, la adaptación puede
+          publicarse como producto nuevo y no como revisión. Cuando eso ocurra, quien haya
+          comprado antes recibe condiciones preferentes.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Aviso</b>Las actualizaciones se anuncian por correo. Si te diste de baja de la lista, revisa tu biblioteca de Gumroad de vez en cuando.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="7">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§7 · Responsabilidad</span>
+          <h2>Hasta dónde responde Polem.</h2>
+
+          <p>En la medida en que la ley aplicable lo permita, la responsabilidad total de
+          Polem frente a ti por cualquier reclamación relacionada con el producto se limita
+          al <b>monto que efectivamente pagaste</b> por él.</p>
+          <p>Polem no responde por lucro cesante, pérdida de negocio, sanciones, resultados
+          adversos de una auditoría ni daños indirectos derivados del uso o de la
+          imposibilidad de uso del material.</p>
+          <p>Nada en estos términos limita la responsabilidad que la ley no permita limitar,
+          ni tus derechos como consumidor bajo la legislación de tu país de residencia.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>En claro</b>Si el material te falla, te devolvemos lo que pagaste. No podemos responder por el resultado de tu auditoría, porque no controlamos tu implementación.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="8">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§8 · Pagos</span>
+          <h2>Cómo se cobra y quién factura.</h2>
+
+          <p>Los pagos se procesan a través de <b>Gumroad</b>, que actúa como comerciante
+          registrado. Eso significa que Gumroad es quien te cobra, quien calcula y remite el
+          impuesto que corresponda a tu país y quien emite el comprobante de la operación.</p>
+          <p>Los precios se muestran en dólares estadounidenses. El impuesto aplicable puede
+          añadirse al momento del pago según tu ubicación. El cargo en tu estado de cuenta
+          puede aparecer a nombre de Gumroad.</p>
+          <p>Si necesitas un comprobante fiscal mexicano, escríbenos a
+          <a href="mailto:hola@polem.tech">hola@polem.tech</a> con los datos de tu compra y te indicamos
+          el procedimiento aplicable en ese momento.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Entrega</b>La descarga se habilita en cuanto el pago se confirma. Si no llega, revisa el correo de Gumroad o escríbenos.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="9">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§9 · Conducta</span>
+          <h2>Uso indebido y suspensión.</h2>
+
+          <p>Polem puede suspender el acceso a las descargas y cancelar la licencia, sin
+          reembolso, cuando se detecte redistribución del material, uso de credenciales
+          compartidas a escala o cualquier otro incumplimiento grave de §L2.</p>
+          <p>Antes de suspender te lo comunicaremos y te daremos oportunidad de explicar,
+          salvo que el incumplimiento sea manifiesto y esté causando un daño en curso.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Criterio</b>Compartirlo con tu equipo es uso normal. Publicarlo en un repositorio abierto, no.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="10">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§10 · Ley y cambios</span>
+          <h2>Jurisdicción y revisiones de estos términos.</h2>
+
+          <p>Estos términos se rigen por la legislación mexicana. Cualquier controversia se
+          someterá a los tribunales competentes de <span class="campo">[DOMICILIO FISCAL O DE CONTACTO]</span>, salvo que la ley de tu país
+          de residencia como consumidor disponga un foro distinto e irrenunciable.</p>
+          <p>Podemos modificar estos términos. La versión aplicable a tu compra es la vigente
+          en el momento en que la realizaste, y la conservamos por si necesitas consultarla.
+          Los cambios relevantes se anuncian con al menos treinta días de antelación.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Versión</b>Rev. 2026.4 · vigente desde el 21 de agosto de 2026.</p>
+</aside>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="/"><svg class="brand-mark" viewBox="0 0 250 290" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="55" height="10"/><rect x="0" y="280" width="55" height="10"/><rect x="15" y="0" width="20" height="290"/><rect x="70" y="0" width="180" height="10"/><rect x="70" y="280" width="180" height="10"/><rect x="70" y="50" width="20" height="240"/><rect x="90" y="50" width="155" height="10"/><rect x="90" y="125" width="155" height="5"/><rect x="100" y="195" width="145" height="10"/><rect x="235" y="50" width="10" height="155"/><rect x="160" y="50" width="5" height="155"/></svg><span class="brand-name">Polem</span></a>
+        <p>Plantillas de apoyo. No garantizan la certificación.</p>
+      </div>
+      <nav class="flinks" aria-label="Documentos legales">
+        <a href="/">Portada</a>
+        <a href="/privacidad.html">Privacidad</a>
+        <a href="/terminos.html">Términos</a>
+        <a href="/reembolsos.html">Reembolsos</a>
+      </nav>
+    </div>
+    <div class="fbar">
+      <span>© 2026 Polem · Rev. 2026.4</span>
+      <span>Vigente desde el 21 de agosto de 2026</span>
+    </div>
+  </div>
+</footer>
+
+</body></html>

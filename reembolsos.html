@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="es-MX"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de reembolsos — Polem</title>
+<meta name="description" content="Política de reembolsos de Polem: 14 días naturales, devolución íntegra sin justificación, cómo solicitarla y las tres excepciones que aplican.">
+<link rel="canonical" href="https://polem.tech/reembolsos.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Política de reembolsos — Polem">
+<meta property="og:description" content="Política de reembolsos de Polem: 14 días naturales, devolución íntegra sin justificación, cómo solicitarla y las tres excepciones que aplican.">
+<meta property="og:url" content="https://polem.tech/reembolsos.html">
+<meta property="og:image" content="https://polem.tech/og.png">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ink:#0b1420; --primary:#0e2a47; --tertiary:#7e5c1c; --tertiary-light:#c9a961;
+  --neutral:#f5f3ee; --surface:#ffffff; --surface-sunken:#ebe8e1;
+  --on-surface:#0b1420; --on-surface-muted:#5a6672;
+  --on-ink:#f5f3ee; --on-ink-muted:#8fa3b8;
+  --rule:#0b1420; --rule-soft:#d6d1c6;
+  --font-display:"Bodoni Moda","Didot",Georgia,serif;
+  --font-text:"Newsreader",Georgia,"Times New Roman",serif;
+  --font-mono:"Martian Mono",ui-monospace,"SF Mono",monospace;
+}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:600;font-display:swap;src:url('./assets/fonts/bodoni-moda-600.woff2') format('woff2')}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('./assets/fonts/newsreader-400.woff2') format('woff2')}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('./assets/fonts/newsreader-600.woff2') format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:400;font-display:swap;src:url('./assets/fonts/martian-mono-400.woff2') format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:500;font-display:swap;src:url('./assets/fonts/martian-mono-500.woff2') format('woff2')}
+
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--neutral);color:var(--on-surface);
+  font-family:var(--font-text);font-size:18px;line-height:1.65;
+  -webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{max-width:1240px;margin-inline:auto;padding-inline:24px;position:relative;z-index:1}
+
+/* ── cabecera ───────────────────────────────────────────── */
+.docbar{border-bottom:1px solid var(--rule);background:var(--neutral);
+  position:sticky;top:0;z-index:20}
+.docbar-in{display:flex;align-items:center;justify-content:space-between;gap:24px;
+  min-height:64px}
+.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.brand-mark{width:15px;height:17px;display:block}
+.brand-name{font-family:var(--font-display);font-size:22px;font-weight:600;letter-spacing:-.02em}
+.back{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;text-decoration:none;color:var(--on-surface-muted);
+  border-bottom:1px solid var(--rule-soft);padding-bottom:2px}
+.back:hover,.back:focus-visible{color:var(--ink);border-color:var(--ink)}
+
+/* ── membrete ───────────────────────────────────────────── */
+.masthead{background:var(--ink);color:var(--on-ink);padding:56px 0 60px;margin-bottom:0}
+.masthead .cn{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary-light);background:var(--ink);display:block}
+.masthead h1{font-family:var(--font-display);font-size:38px;font-weight:600;line-height:1;
+  letter-spacing:-.03em;margin:14px 0 0;color:var(--on-ink);background:var(--ink);max-width:20ch}
+@media(min-width:860px){.masthead h1{font-size:60px}}
+.masthead .sub{font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;
+  color:var(--on-ink-muted);background:var(--ink);margin:18px 0 0}
+
+/* ── cuerpo ─────────────────────────────────────────────── */
+main{padding:0 0 96px}
+.clause{border-top:4px solid var(--rule);padding-top:28px;margin-top:56px}
+.clause:first-of-type{margin-top:56px}
+.clause-grid{display:grid;gap:20px}
+@media(min-width:980px){.clause-grid{grid-template-columns:minmax(0,1fr) 260px;gap:56px;align-items:start}}
+.cnum{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary);display:block;margin-bottom:10px}
+h2{font-family:var(--font-display);font-size:28px;font-weight:600;line-height:1.1;
+  letter-spacing:-.02em;margin:0 0 20px;max-width:24ch}
+@media(min-width:860px){h2{font-size:34px}}
+h3{font-family:var(--font-text);font-size:19px;font-weight:600;margin:32px 0 8px}
+p{margin:0 0 16px;max-width:68ch}
+ul{margin:0 0 16px;padding-left:0;list-style:none;max-width:68ch}
+li{position:relative;padding-left:22px;margin-bottom:10px}
+li::before{content:"";position:absolute;left:0;top:11px;width:7px;height:7px;
+  background:var(--tertiary)}
+a{color:var(--primary);text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1px}
+a:hover,a:focus-visible{color:var(--ink)}
+b,strong{font-weight:600}
+.campo{font-family:var(--font-mono);font-size:.86em;font-weight:500;color:var(--tertiary);
+  border-bottom:2px dotted var(--tertiary);padding-bottom:1px;white-space:nowrap}
+.dl{margin:0 0 20px;max-width:68ch}
+.dl div{display:grid;gap:2px;padding:12px 0;border-bottom:1px solid var(--rule-soft)}
+@media(min-width:640px){.dl div{grid-template-columns:200px minmax(0,1fr);gap:20px;align-items:baseline}}
+.dl dt{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-surface-muted);margin:0}
+.dl dd{margin:0}
+.margin-notes{display:grid;gap:20px;align-content:start}
+@media(max-width:979px){.margin-notes{border-top:1px solid var(--rule-soft);padding-top:20px}}
+.note{font-family:var(--font-mono);font-size:12.5px;line-height:1.6;color:var(--on-surface-muted);
+  border-left:2px solid var(--rule-soft);padding-left:14px;margin:0}
+.note b{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--tertiary);margin-bottom:6px;font-weight:500}
+.callout{background:var(--surface-sunken);border-left:4px solid var(--tertiary);
+  padding:20px 22px;margin:24px 0;max-width:68ch}
+.callout p:last-child{margin-bottom:0}
+.callout .lbl{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary);display:block;margin-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:0 0 20px;font-size:16px}
+th,td{text-align:left;padding:12px 14px 12px 0;border-bottom:1px solid var(--rule-soft);
+  vertical-align:top}
+thead th{border-bottom:2px solid var(--rule);font-family:var(--font-mono);font-size:11px;
+  font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--on-surface-muted)}
+.scroll-x{overflow-x:auto}
+
+/* ── colofón ────────────────────────────────────────────── */
+footer{background:var(--ink);color:var(--on-ink);padding:48px 0 32px}
+.fgrid{display:grid;gap:28px}
+@media(min-width:860px){.fgrid{grid-template-columns:minmax(0,1fr) auto}}
+footer .brand{color:var(--on-ink);background:var(--ink)}
+footer p{color:var(--on-ink-muted);background:var(--ink);font-size:15px;margin:14px 0 0;max-width:44ch}
+.flinks{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:center}
+.flinks a{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-ink);background:var(--ink);text-decoration:none;
+  border-bottom:1px solid transparent;padding-bottom:2px}
+.flinks a:hover,.flinks a:focus-visible{border-color:var(--tertiary-light)}
+.fbar{border-top:1px solid #2a3a4d;margin-top:36px;padding-top:20px;
+  display:flex;flex-wrap:wrap;gap:8px 32px;
+  font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-ink-muted);background:var(--ink)}
+:focus-visible{outline:2px solid var(--tertiary);outline-offset:3px}
+@media print{body::before{display:none}.docbar,footer{background:#fff;color:#000}}
+</style></head>
+<body>
+
+<header class="docbar">
+  <div class="wrap docbar-in">
+    <a class="brand" href="/" aria-label="Polem — inicio"><svg class="brand-mark" viewBox="0 0 250 290" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="55" height="10"/><rect x="0" y="280" width="55" height="10"/><rect x="15" y="0" width="20" height="290"/><rect x="70" y="0" width="180" height="10"/><rect x="70" y="280" width="180" height="10"/><rect x="70" y="50" width="20" height="240"/><rect x="90" y="50" width="155" height="10"/><rect x="90" y="125" width="155" height="5"/><rect x="100" y="195" width="145" height="10"/><rect x="235" y="50" width="10" height="155"/><rect x="160" y="50" width="5" height="155"/></svg><span class="brand-name">Polem</span></a>
+    <a class="back" href="/">← Volver a la portada</a>
+  </div>
+</header>
+
+<div class="masthead">
+  <div class="wrap">
+    <span class="cn">§L3 · Política de reembolsos</span>
+    <h1>Política de reembolsos</h1>
+    <p class="sub">Vigente desde el 21 de agosto de 2026 · Rev. 2026.4</p>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+
+    <section class="clause" id="1">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§1 · La regla</span>
+          <h2>Catorce días, sin preguntas.</h2>
+
+          <div class="callout">
+            <span class="lbl">En una frase</span>
+            <p>Si dentro de los <b>14 días naturales</b> siguientes a tu compra el material
+            no te sirve, escribes y te devolvemos el 100 %. No hay que justificar nada, no
+            hay formulario y no hay llamada de retención.</p>
+          </div>
+          <p>Sabemos que es contraintuitivo en un producto que se descarga: nada te impide
+          quedarte con los archivos y pedir el dinero de vuelta. Lo asumimos por dos razones.
+          La primera es que nadie puede juzgar documentación de este tipo sin abrirla. La
+          segunda es que el checklist gratuito está escrito con el mismo criterio que el kit,
+          así que quien compra ya sabe lo que va a recibir, y las devoluciones son pocas.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Antes de comprar</b>Descarga el checklist gratuito de la portada. Es el mejor filtro: si te sirve, el kit te va a servir.</p>
+<p class="note"><b>Plazo</b>14 días naturales desde la fecha del cargo, no desde la descarga.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="2">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§2 · Cómo se pide</span>
+          <h2>Un correo, tres datos.</h2>
+
+          <p>Escribe a <a href="mailto:hola@polem.tech">hola@polem.tech</a> desde el mismo correo con el
+          que compraste, e incluye:</p>
+          <ul>
+            <li>Qué producto compraste.</li>
+            <li>La fecha de la compra o el identificador del recibo de Gumroad.</li>
+            <li>Si quieres, qué te falló. Es opcional y no condiciona el reembolso, pero es
+            la información que hace mejor el producto.</li>
+          </ul>
+          <dl class="dl">
+            <div><dt>Respuesta</dt><dd>Dentro de 2 días hábiles</dd></div>
+            <div><dt>Devolución</dt><dd>Al mismo método de pago, por Gumroad</dd></div>
+            <div><dt>Tiempo del banco</dt><dd>Entre 5 y 10 días hábiles, según tu emisor</dd></div>
+            <div><dt>Comisiones</dt><dd>Ninguna. Se devuelve el importe íntegro</dd></div>
+          </dl>
+          <p>También puedes solicitarlo directamente desde el recibo de Gumroad. Ambas vías
+          funcionan; por correo suele ser más rápido.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Acceso</b>Al procesarse el reembolso se revoca el acceso a las descargas y la licencia de uso queda sin efecto.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="3">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§3 · Excepciones</span>
+          <h2>Los tres casos en que no aplica.</h2>
+
+          <p>La devolución sin preguntas cubre todo el catálogo, con tres excepciones
+          acotadas:</p>
+          <div class="scroll-x"><table>
+            <thead><tr><th scope="col">Caso</th><th scope="col">Por qué</th></tr></thead>
+            <tbody>
+              <tr><td>Servicios personalizados ya prestados</td><td>La revisión asíncrona del Bundle Premium, una vez entregada, no se reembolsa: es tiempo de trabajo consumido. El resto del bundle sí.</td></tr>
+              <tr><td>Licencias de consultor</td><td>Se negocian caso por caso y sus condiciones de devolución se pactan por escrito al contratarlas.</td></tr>
+              <tr><td>Redistribución comprobada</td><td>Quien revende o publica el material y después pide reembolso, no lo obtiene.</td></tr>
+            </tbody>
+          </table></div>
+          <p>Fuera de esos tres casos, si estás dentro del plazo, se devuelve.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Bundle Premium</b>Si pides reembolso antes de agendar la revisión, se devuelve completo.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="4">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§4 · Después de los 14 días</span>
+          <h2>Qué pasa si el problema aparece más tarde.</h2>
+
+          <p>Pasado el plazo ya no hay devolución automática, pero eso no significa que te
+          quedes solo. Si encuentras un error real en un documento —una referencia
+          equivocada, una incoherencia entre plantillas, una cláusula que no corresponde a la
+          norma— <b>lo corregimos y publicamos la revisión sin costo</b>, y te avisamos.</p>
+          <p>Si el error es lo bastante grave como para que el material no sirviera para lo
+          que lo compraste, escríbenos igual. Preferimos resolverlo a tener un cliente que se
+          va callado.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Errores</b>Reportar un error es la forma más útil de contribuir. Los que se corrigen quedan en el historial de versiones de cada documento.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="5">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§5 · Contracargos</span>
+          <h2>Por favor, escríbenos primero.</h2>
+
+          <p>Si algo salió mal, un correo lo resuelve en dos días. Un contracargo tarda
+          semanas, penaliza al vendedor aunque tenga la razón y bloquea tu acceso mientras se
+          resuelve.</p>
+          <p>Nunca hemos rechazado un reembolso dentro del plazo. No hay ninguna razón para
+          que tu primer movimiento sea el banco.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Contacto</b><a href="mailto:hola@polem.tech">hola@polem.tech</a></p>
+</aside>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="/"><svg class="brand-mark" viewBox="0 0 250 290" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="55" height="10"/><rect x="0" y="280" width="55" height="10"/><rect x="15" y="0" width="20" height="290"/><rect x="70" y="0" width="180" height="10"/><rect x="70" y="280" width="180" height="10"/><rect x="70" y="50" width="20" height="240"/><rect x="90" y="50" width="155" height="10"/><rect x="90" y="125" width="155" height="5"/><rect x="100" y="195" width="145" height="10"/><rect x="235" y="50" width="10" height="155"/><rect x="160" y="50" width="5" height="155"/></svg><span class="brand-name">Polem</span></a>
+        <p>Plantillas de apoyo. No garantizan la certificación.</p>
+      </div>
+      <nav class="flinks" aria-label="Documentos legales">
+        <a href="/">Portada</a>
+        <a href="/privacidad.html">Privacidad</a>
+        <a href="/terminos.html">Términos</a>
+        <a href="/reembolsos.html">Reembolsos</a>
+      </nav>
+    </div>
+    <div class="fbar">
+      <span>© 2026 Polem · Rev. 2026.4</span>
+      <span>Vigente desde el 21 de agosto de 2026</span>
+    </div>
+  </div>
+</footer>
+
+</body></html>

@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="es-MX"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aviso de privacidad — Polem</title>
+<meta name="description" content="Aviso de privacidad de Polem: qué datos se recaban en polem.tech, para qué, con quién se comparten y cómo ejercer tus derechos de acceso, rectificación, cancelación y oposición.">
+<link rel="canonical" href="https://polem.tech/privacidad.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Aviso de privacidad — Polem">
+<meta property="og:description" content="Aviso de privacidad de Polem: qué datos se recaban en polem.tech, para qué, con quién se comparten y cómo ejercer tus derechos de acceso, rectificación, cancelación y oposición.">
+<meta property="og:url" content="https://polem.tech/privacidad.html">
+<meta property="og:image" content="https://polem.tech/og.png">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ink:#0b1420; --primary:#0e2a47; --tertiary:#7e5c1c; --tertiary-light:#c9a961;
+  --neutral:#f5f3ee; --surface:#ffffff; --surface-sunken:#ebe8e1;
+  --on-surface:#0b1420; --on-surface-muted:#5a6672;
+  --on-ink:#f5f3ee; --on-ink-muted:#8fa3b8;
+  --rule:#0b1420; --rule-soft:#d6d1c6;
+  --font-display:"Bodoni Moda","Didot",Georgia,serif;
+  --font-text:"Newsreader",Georgia,"Times New Roman",serif;
+  --font-mono:"Martian Mono",ui-monospace,"SF Mono",monospace;
+}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:600;font-display:swap;src:url('./assets/fonts/bodoni-moda-600.woff2') format('woff2')}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('./assets/fonts/newsreader-400.woff2') format('woff2')}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('./assets/fonts/newsreader-600.woff2') format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:400;font-display:swap;src:url('./assets/fonts/martian-mono-400.woff2') format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:500;font-display:swap;src:url('./assets/fonts/martian-mono-500.woff2') format('woff2')}
+
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--neutral);color:var(--on-surface);
+  font-family:var(--font-text);font-size:18px;line-height:1.65;
+  -webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{max-width:1240px;margin-inline:auto;padding-inline:24px;position:relative;z-index:1}
+
+/* ── cabecera ───────────────────────────────────────────── */
+.docbar{border-bottom:1px solid var(--rule);background:var(--neutral);
+  position:sticky;top:0;z-index:20}
+.docbar-in{display:flex;align-items:center;justify-content:space-between;gap:24px;
+  min-height:64px}
+.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.brand-mark{width:15px;height:17px;display:block}
+.brand-name{font-family:var(--font-display);font-size:22px;font-weight:600;letter-spacing:-.02em}
+.back{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;text-decoration:none;color:var(--on-surface-muted);
+  border-bottom:1px solid var(--rule-soft);padding-bottom:2px}
+.back:hover,.back:focus-visible{color:var(--ink);border-color:var(--ink)}
+
+/* ── membrete ───────────────────────────────────────────── */
+.masthead{background:var(--ink);color:var(--on-ink);padding:56px 0 60px;margin-bottom:0}
+.masthead .cn{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary-light);background:var(--ink);display:block}
+.masthead h1{font-family:var(--font-display);font-size:38px;font-weight:600;line-height:1;
+  letter-spacing:-.03em;margin:14px 0 0;color:var(--on-ink);background:var(--ink);max-width:20ch}
+@media(min-width:860px){.masthead h1{font-size:60px}}
+.masthead .sub{font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;
+  color:var(--on-ink-muted);background:var(--ink);margin:18px 0 0}
+
+/* ── cuerpo ─────────────────────────────────────────────── */
+main{padding:0 0 96px}
+.clause{border-top:4px solid var(--rule);padding-top:28px;margin-top:56px}
+.clause:first-of-type{margin-top:56px}
+.clause-grid{display:grid;gap:20px}
+@media(min-width:980px){.clause-grid{grid-template-columns:minmax(0,1fr) 260px;gap:56px;align-items:start}}
+.cnum{font-family:var(--font-mono);font-size:12px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary);display:block;margin-bottom:10px}
+h2{font-family:var(--font-display);font-size:28px;font-weight:600;line-height:1.1;
+  letter-spacing:-.02em;margin:0 0 20px;max-width:24ch}
+@media(min-width:860px){h2{font-size:34px}}
+h3{font-family:var(--font-text);font-size:19px;font-weight:600;margin:32px 0 8px}
+p{margin:0 0 16px;max-width:68ch}
+ul{margin:0 0 16px;padding-left:0;list-style:none;max-width:68ch}
+li{position:relative;padding-left:22px;margin-bottom:10px}
+li::before{content:"";position:absolute;left:0;top:11px;width:7px;height:7px;
+  background:var(--tertiary)}
+a{color:var(--primary);text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1px}
+a:hover,a:focus-visible{color:var(--ink)}
+b,strong{font-weight:600}
+.campo{font-family:var(--font-mono);font-size:.86em;font-weight:500;color:var(--tertiary);
+  border-bottom:2px dotted var(--tertiary);padding-bottom:1px;white-space:nowrap}
+.dl{margin:0 0 20px;max-width:68ch}
+.dl div{display:grid;gap:2px;padding:12px 0;border-bottom:1px solid var(--rule-soft)}
+@media(min-width:640px){.dl div{grid-template-columns:200px minmax(0,1fr);gap:20px;align-items:baseline}}
+.dl dt{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-surface-muted);margin:0}
+.dl dd{margin:0}
+.margin-notes{display:grid;gap:20px;align-content:start}
+@media(max-width:979px){.margin-notes{border-top:1px solid var(--rule-soft);padding-top:20px}}
+.note{font-family:var(--font-mono);font-size:12.5px;line-height:1.6;color:var(--on-surface-muted);
+  border-left:2px solid var(--rule-soft);padding-left:14px;margin:0}
+.note b{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--tertiary);margin-bottom:6px;font-weight:500}
+.callout{background:var(--surface-sunken);border-left:4px solid var(--tertiary);
+  padding:20px 22px;margin:24px 0;max-width:68ch}
+.callout p:last-child{margin-bottom:0}
+.callout .lbl{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tertiary);display:block;margin-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:0 0 20px;font-size:16px}
+th,td{text-align:left;padding:12px 14px 12px 0;border-bottom:1px solid var(--rule-soft);
+  vertical-align:top}
+thead th{border-bottom:2px solid var(--rule);font-family:var(--font-mono);font-size:11px;
+  font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--on-surface-muted)}
+.scroll-x{overflow-x:auto}
+
+/* ── colofón ────────────────────────────────────────────── */
+footer{background:var(--ink);color:var(--on-ink);padding:48px 0 32px}
+.fgrid{display:grid;gap:28px}
+@media(min-width:860px){.fgrid{grid-template-columns:minmax(0,1fr) auto}}
+footer .brand{color:var(--on-ink);background:var(--ink)}
+footer p{color:var(--on-ink-muted);background:var(--ink);font-size:15px;margin:14px 0 0;max-width:44ch}
+.flinks{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:center}
+.flinks a{font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-ink);background:var(--ink);text-decoration:none;
+  border-bottom:1px solid transparent;padding-bottom:2px}
+.flinks a:hover,.flinks a:focus-visible{border-color:var(--tertiary-light)}
+.fbar{border-top:1px solid #2a3a4d;margin-top:36px;padding-top:20px;
+  display:flex;flex-wrap:wrap;gap:8px 32px;
+  font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--on-ink-muted);background:var(--ink)}
+:focus-visible{outline:2px solid var(--tertiary);outline-offset:3px}
+@media print{body::before{display:none}.docbar,footer{background:#fff;color:#000}}
+</style></head>
+<body>
+
+<header class="docbar">
+  <div class="wrap docbar-in">
+    <a class="brand" href="/" aria-label="Polem — inicio"><svg class="brand-mark" viewBox="0 0 250 290" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="55" height="10"/><rect x="0" y="280" width="55" height="10"/><rect x="15" y="0" width="20" height="290"/><rect x="70" y="0" width="180" height="10"/><rect x="70" y="280" width="180" height="10"/><rect x="70" y="50" width="20" height="240"/><rect x="90" y="50" width="155" height="10"/><rect x="90" y="125" width="155" height="5"/><rect x="100" y="195" width="145" height="10"/><rect x="235" y="50" width="10" height="155"/><rect x="160" y="50" width="5" height="155"/></svg><span class="brand-name">Polem</span></a>
+    <a class="back" href="/">← Volver a la portada</a>
+  </div>
+</header>
+
+<div class="masthead">
+  <div class="wrap">
+    <span class="cn">§L1 · Aviso de privacidad</span>
+    <h1>Aviso de privacidad</h1>
+    <p class="sub">Vigente desde el 21 de agosto de 2026 · Rev. 2026.4</p>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+
+    <section class="clause" id="1">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§1 · Quién responde</span>
+          <h2>Quién trata tus datos y cómo contactarlo.</h2>
+
+          <p>Polem es una marca operada por <span class="campo">[NOMBRE COMPLETO DEL TITULAR]</span>, con domicilio en
+          <span class="campo">[DOMICILIO FISCAL O DE CONTACTO]</span>, responsable del tratamiento de los datos personales
+          que se recaban a través de <a href="https://polem.tech">polem.tech</a>.</p>
+          <dl class="dl">
+            <div><dt>Responsable</dt><dd><span class="campo">[NOMBRE COMPLETO DEL TITULAR]</span></dd></div>
+            <div><dt>Domicilio</dt><dd><span class="campo">[DOMICILIO FISCAL O DE CONTACTO]</span></dd></div>
+            <div><dt>Correo de contacto</dt><dd><a href="mailto:hola@polem.tech">hola@polem.tech</a></dd></div>
+            <div><dt>Sitio</dt><dd>polem.tech</dd></div>
+          </dl>
+          <p>Este aviso se emite conforme a la legislación mexicana en materia de protección
+          de datos personales en posesión de particulares. Si nos escribes desde otra
+          jurisdicción, se aplican además las obligaciones que correspondan a tu país de
+          residencia.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Alcance</b>Este aviso cubre el sitio y la lista de correo. Las compras las procesa Gumroad, que tiene su propio aviso y su propia relación contigo.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="2">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§2 · Qué se recaba</span>
+          <h2>Los datos que pedimos, y los que no.</h2>
+
+          <h3>Cuando descargas el checklist gratuito</h3>
+          <ul>
+            <li>Tu correo electrónico.</li>
+            <li>Opcionalmente, tu nombre y el de tu organización, si decides escribirlos.</li>
+          </ul>
+          <h3>Cuando compras un kit</h3>
+          <p>La compra la procesa Gumroad como comerciante registrado. Tus datos de pago
+          —tarjeta, dirección de facturación, identificadores fiscales— los recaba y trata
+          Gumroad directamente. Polem <b>nunca ve ni almacena datos de tarjeta</b>. De cada
+          compra recibimos únicamente el correo del comprador, el producto adquirido, el
+          país declarado para efectos fiscales y el monto.</p>
+          <h3>Cuando nos escribes</h3>
+          <p>El contenido de tu mensaje y los datos que decidas incluir en él.</p>
+          <h3>Lo que no se recaba</h3>
+          <ul>
+            <li>El sitio funciona sin analítica de terceros y sin cookies de seguimiento
+            publicitario.</li>
+            <li>Tus datos nunca se venden ni se comparten con redes de publicidad.</li>
+            <li>No se recaban datos personales sensibles; te pedimos que tampoco los
+            incluyas si nos escribes.</li>
+          </ul>
+          <h3>Scripts de terceros</h3>
+          <p>Navegar por polem.tech no ejecuta código de terceros. El único script externo
+          del sitio es el del sistema de pago, y <b>se carga únicamente cuando pulsas un
+          botón de compra</b>: a partir de ese momento Gumroad puede ver tu dirección IP y
+          los datos que su propio proceso de pago requiera, conforme a su aviso de
+          privacidad. Si nunca pulsas comprar, ese script nunca se descarga.</p>
+          <p>Las tipografías se sirven desde polem.tech y no desde un CDN externo, por la
+          misma razón.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Fuentes</b>Solo obtenemos datos de ti directamente. No compramos listas ni enriquecemos perfiles con fuentes de terceros.</p>
+<p class="note"><b>Comprobable</b>Abre las herramientas de desarrollador, pestaña Red, y recarga: no verás ninguna petición a un dominio ajeno hasta que pulses comprar.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="3">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§3 · Para qué</span>
+          <h2>Las finalidades, separadas entre necesarias y opcionales.</h2>
+
+          <h3>Finalidades necesarias</h3>
+          <ul>
+            <li>Entregarte el checklist o el kit que solicitaste.</li>
+            <li>Darte soporte y responder tus mensajes.</li>
+            <li>Notificarte actualizaciones de versión de un producto que compraste, durante
+            el periodo de actualizaciones incluido.</li>
+            <li>Cumplir obligaciones legales, fiscales y contables aplicables.</li>
+          </ul>
+          <h3>Finalidades opcionales</h3>
+          <ul>
+            <li>Enviarte correos con contenido sobre implementación de ISO 27001 y avisos de
+            productos nuevos.</li>
+          </ul>
+          <p>Puedes negarte a las finalidades opcionales en cualquier momento con el enlace
+          de baja que lleva cada correo, o escribiendo a
+          <a href="mailto:hola@polem.tech">hola@polem.tech</a>. Negarte no afecta a la entrega de lo que
+          hayas comprado.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Sin decisiones automatizadas</b>No se toman decisiones automatizadas ni se hace elaboración de perfiles que produzca efectos jurídicos sobre ti.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="4">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§4 · Con quién</span>
+          <h2>Encargados y transferencias.</h2>
+
+          <p>Para operar, Polem se apoya en los siguientes proveedores, que tratan datos por
+          cuenta de Polem o como responsables propios. Todos tienen contrato o términos que
+          regulan ese tratamiento.</p>
+          <div class="scroll-x"><table>
+            <thead><tr><th scope="col">Proveedor</th><th scope="col">Para qué</th><th scope="col">Dónde</th></tr></thead>
+            <tbody>
+              <tr><td>Gumroad</td><td>Cobro, facturación y entrega de los archivos comprados. Actúa como comerciante registrado y responsable propio de los datos de pago. Su script solo se carga al pulsar un botón de compra.</td><td>Estados Unidos</td></tr>
+              <tr><td>MailerLite</td><td>Envío de la lista de correo y entrega del checklist gratuito.</td><td>Unión Europea</td></tr>
+              <tr><td>GitHub Pages</td><td>Alojamiento del sitio. Registra direcciones IP en sus bitácoras de servidor.</td><td>Estados Unidos</td></tr>
+            </tbody>
+          </table></div>
+          <p>Estos proveedores implican <b>transferencia internacional de datos</b>. Al
+          proporcionarnos tu correo consientes esa transferencia, limitada a las finalidades
+          de la cláusula §3. Fuera de estos casos, Polem no transfiere tus datos a terceros
+          salvo requerimiento de autoridad competente.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Cambios de proveedor</b>Si sustituimos alguno, este aviso se actualiza antes de que el cambio surta efecto.</p>
+<p class="note"><b>Lo que no hacemos</b>Nunca compartimos tu correo con otras empresas para que te contacten.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="5">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§5 · Tus derechos</span>
+          <h2>Acceso, rectificación, cancelación y oposición.</h2>
+
+          <p>Tienes derecho a conocer qué datos tuyos tenemos y para qué los usamos
+          (<b>acceso</b>), a pedir que se corrijan si están desactualizados o son inexactos
+          (<b>rectificación</b>), a solicitar que los eliminemos cuando consideres que no se
+          usan conforme a este aviso (<b>cancelación</b>) y a oponerte a usos específicos
+          (<b>oposición</b>). También puedes revocar tu consentimiento en cualquier momento.</p>
+          <h3>Cómo se ejerce</h3>
+          <p>Escribe a <a href="mailto:hola@polem.tech">hola@polem.tech</a> desde la dirección de la que
+          quieras ejercer el derecho, indicando qué solicitas. Para verificar tu identidad
+          podemos pedirte que confirmes desde ese mismo correo o que aportes un dato que
+          solo el titular conocería.</p>
+          <dl class="dl">
+            <div><dt>Acuse de recibo</dt><dd>Dentro de los 3 días hábiles siguientes</dd></div>
+            <div><dt>Respuesta</dt><dd>Dentro del plazo que fije la ley aplicable</dd></div>
+            <div><dt>Costo</dt><dd>Gratuito. Solo se cobran gastos de envío si pides copia en medio físico</dd></div>
+          </dl>
+          <p>Si consideras que tu derecho no fue atendido, puedes acudir a la autoridad
+          competente en materia de protección de datos de tu país.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Respaldos</b>Al eliminar tus datos quedan bloqueados en las copias de seguridad hasta que vence su ciclo de retención, momento en que se suprimen definitivamente.</p>
+<p class="note"><b>Compras</b>Los registros de una compra se conservan por el plazo que exige la legislación fiscal, aunque solicites la baja de la lista.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="6">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§6 · Cuánto tiempo</span>
+          <h2>Conservación de cada tipo de dato.</h2>
+
+          <div class="scroll-x"><table>
+            <thead><tr><th scope="col">Dato</th><th scope="col">Se conserva</th></tr></thead>
+            <tbody>
+              <tr><td>Correo en la lista</td><td>Hasta que solicites la baja, o tras 24 meses sin ninguna interacción</td></tr>
+              <tr><td>Registro de compra</td><td>El plazo que exija la legislación fiscal aplicable</td></tr>
+              <tr><td>Mensajes de soporte</td><td>24 meses desde el cierre de la consulta</td></tr>
+              <tr><td>Bitácoras del servidor</td><td>Según la política del proveedor de alojamiento</td></tr>
+            </tbody>
+          </table></div>
+          <p>Vencido el plazo, los datos se suprimen o se anonimizan de forma irreversible.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Criterio</b>Conservar de más también incumple. Si un dato ya no sirve para la finalidad que lo justificó, se borra.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="7">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§7 · Seguridad</span>
+          <h2>Qué medidas protegen tus datos.</h2>
+
+          <p>Polem aplica medidas administrativas, técnicas y físicas proporcionales a la
+          sensibilidad de los datos que trata: cifrado en tránsito en todo el sitio, acceso
+          por necesidad de conocer con segundo factor, credenciales en gestor de secretos y
+          revisión periódica de accesos.</p>
+          <div class="callout">
+            <span class="lbl">Coherencia</span>
+            <p>Vendemos documentación de seguridad de la información. Nos aplicamos los
+            mismos controles que describen nuestras plantillas, y cuando algo no está
+            implementado todavía lo decimos en lugar de insinuar lo contrario.</p>
+          </div>
+          <p>Si ocurriera una vulneración que afecte de forma significativa a tus datos, te
+          lo notificaremos sin dilación indebida por el correo que tengamos registrado, con
+          lo que se sepa en ese momento y lo que estemos haciendo.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Reporte</b>Si encuentras una vulnerabilidad en polem.tech, escríbenos. Agradecemos el reporte de buena fe y no emprendemos acciones contra quien investiga de forma responsable.</p>
+</aside>
+      </div>
+    </section>
+
+    <section class="clause" id="8">
+      <div class="clause-grid">
+        <div>
+          <span class="cnum">§8 · Cambios</span>
+          <h2>Cómo se actualiza este aviso.</h2>
+
+          <p>Este aviso puede modificarse por cambios legales, por cambios en nuestros
+          proveedores o por cambios en el producto. La versión vigente es siempre la
+          publicada en esta dirección, con su fecha al pie.</p>
+          <p>Cuando el cambio afecte a finalidades o a transferencias, te lo avisaremos por
+          correo antes de que surta efecto.</p>
+        </div>
+        <aside class="margin-notes">
+<p class="note"><b>Versión</b>Rev. 2026.4 · vigente desde el 21 de agosto de 2026.</p>
+</aside>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="/"><svg class="brand-mark" viewBox="0 0 250 290" fill="currentColor" aria-hidden="true"><rect x="0" y="0" width="55" height="10"/><rect x="0" y="280" width="55" height="10"/><rect x="15" y="0" width="20" height="290"/><rect x="70" y="0" width="180" height="10"/><rect x="70" y="280" width="180" height="10"/><rect x="70" y="50" width="20" height="240"/><rect x="90" y="50" width="155" height="10"/><rect x="90" y="125" width="155" height="5"/><rect x="100" y="195" width="145" height="10"/><rect x="235" y="50" width="10" height="155"/><rect x="160" y="50" width="5" height="155"/></svg><span class="brand-name">Polem</span></a>
+        <p>Plantillas de apoyo. No garantizan la certificación.</p>
+      </div>
+      <nav class="flinks" aria-label="Documentos legales">
+        <a href="/">Portada</a>
+        <a href="/privacidad.html">Privacidad</a>
+        <a href="/terminos.html">Términos</a>
+        <a href="/reembolsos.html">Reembolsos</a>
+      </nav>
+    </div>
+    <div class="fbar">
+      <span>© 2026 Polem · Rev. 2026.4</span>
+      <span>Vigente desde el 21 de agosto de 2026</span>
+    </div>
+  </div>
+</footer>
+
+</body></html>
